@@ -1,0 +1,36 @@
+{
+    "name": "react-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "server": "live-server public/",
+        "build": "webpack",
+        "dev": "webpack serve",
+        "babelCmd": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+        "babelCmd1": "babel playground/visible.js --out-file=public/scripts/app.js --presets=env,react --watch",
+        "babelCmd2": "babel playground/counter.js --out-file=public/scripts/app.js --presets=env,react --watch"
+    },
+    "author": "innocent kidubo",
+    "license": "MIT",
+    "dependencies": {
+        "babel": "^6.23.0",
+        "babel-cli": "^6.26.0",
+        "babel-core": "6.26.3",
+        "babel-loader": "7.1.1",
+        "babel-plugin-transform-class-properties": "6.24.1",
+        "babel-preset-env": "1.5.2",
+        "babel-preset-react": "6.24.1",
+        "css-loader": "^5.0.1",
+        "node-sass": "^5.0.0",
+        "normalize.css": "^8.0.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-modal": "^3.11.2",
+        "sass-loader": "^10.1.0",
+        "style-loader": "^2.0.0",
+        "webpack": "5.4.0",
+        "webpack-cli": "^4.2.0",
+        "webpack-dev-server": "3.10.0",
+        "webpack-serve": "3.2.0"
+    }
+}
