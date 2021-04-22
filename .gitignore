@@ -1,6 +1,7 @@
 coverage
 dist
 node_modules
+public/bundle
 package-lock.json
 
 babelrc.js
